@@ -10,5 +10,10 @@ publish:
 package-install:
 	python3 -m pip install dist/*.whl
 
+selfcheck:
+	poetry check
+
+check: selfcheck test lint
+
 lint:
 	poetry run flake8 gendiff
