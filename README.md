@@ -2,7 +2,7 @@
 [![Actions Status](https://github.com/kadert1/python-project-50/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/kadert1/python-project-50/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a8537e05304d2f040935/maintainability)](https://codeclimate.com/github/kadert1/python-project-50/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/a8537e05304d2f040935/test_coverage)](https://codeclimate.com/github/kadert1/python-project-50/test_coverage)
-[![Python CI](https://github.com/kadert1/python-project-50/actions/workflows/check.yml/badge.svg)](https://github.com/kadert1/python-project-50/actions/workflows/check.yml)
+[![Python CI](https://github.com/kadert1/python-project-50/actions/workflows/main.yml/badge.svg)](https://github.com/kadert1/python-project-50/actions/workflows/main.yml)
 
 ## Описание
 
