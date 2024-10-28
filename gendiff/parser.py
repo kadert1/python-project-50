@@ -11,10 +11,10 @@ def read(file_path, encoding='utf-8'):
     extens = extension(file_path)
     with open(file_path, 'r', encoding=encoding) as file:
         data = file.read()
-    return parse(data, extens)
+    return parse_(data, extens)
 
 
-def parse(data, file_extens):
+def parse_(data, file_extens):
     parsers = {
         '.json': lambda data: json.loads(data),
         '.yml': lambda data: yaml.load(data, Loader=yaml.FullLoader),
